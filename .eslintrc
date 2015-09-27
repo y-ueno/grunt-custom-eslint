@@ -1,0 +1,70 @@
+{
+  "env": {
+    "browser": true,
+    "amd": true
+  },
+
+  "globals": {
+    "module": true,
+    "console": true,
+    "exports": true,
+    "alert": true
+  },
+
+  "rules": {
+    "camelcase": [2, {"properties": "always"}],
+    "comma-dangle": 1,
+    "comma-spacing": [2, {"before": false, "after": true}],
+    "consistent-return": 1,
+    "curly": 0,
+    "default-case": 0,
+    "dot-notation": 1,
+    "eol-last": 1,
+    "eqeqeq": 1,
+    "guard-for-in": 0,
+    "key-spacing": [2, {
+      "beforeColon": false,
+      "afterColon": true
+      }],
+    "new-cap": 0,
+    "new-parens": 0,
+    "no-alert": 1,
+    "no-array-constructor": 1,
+    "no-catch-shadow": 1,
+    "no-cond-assign": 1,
+    "no-console": 1,
+    "no-dupe-keys": 1,
+    "no-empty": 1,
+    "no-extra-boolean-cast": 1,
+    "no-extra-semi": 1,
+    "no-extra-strict": 0,
+    "no-floating-decimal": 1,
+    "no-loop-func": 1,
+    "no-mixed-spaces-and-tabs": 1,
+    "no-multi-spaces": 1,
+    "no-new-object": 0,
+    "no-new-wrappers": 1,
+    "no-redeclare": 1,
+    "no-script-url": 0,
+    "no-sequences": 1,
+    "no-shadow": 1,
+    "no-space-before-semi": 1,
+    "no-spaced-func": 1,
+    "no-undef": 0,
+    "no-underscore-dangle": 0,
+    "no-unreachable": 1,
+    "no-unused-expressions": 1,
+    "no-unused-vars": 1,
+    "no-use-before-define": 1,
+    "no-wrap-func": 0,
+    "quotes": [1, "single"],
+    "semi": [2, "always"],
+    "semi-spacing": [2, {"before": false, "after": true}],
+    "space-infix-ops": 1,
+    "space-return-throw-case": 1,
+    "space-unary-ops": [1, { "words": true, "nonwords": false }],
+    "strict": 0,
+    "valid-jsdoc": 1,
+    "yoda": 0
+  }
+}
