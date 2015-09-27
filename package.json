@@ -1,7 +1,7 @@
 {
   "name": "grunt-custom-eslint",
   "description": "grunt-custom-eslint",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://github.com/y-ueno/grunt-custom-eslint",
   "author": {
     "name": "Yusuke Ueno",

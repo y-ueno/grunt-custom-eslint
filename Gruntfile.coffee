@@ -5,8 +5,6 @@
 # Copyright  c) 2015 Yusuke Ueno
 # Licensed under the MIT license.
 #
-exec = require('child_process').exec
-spawn = require('child_process').spawn
 
 module.exports =  (grunt) ->
   require('jit-grunt') grunt,

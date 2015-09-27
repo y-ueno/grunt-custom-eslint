@@ -32,7 +32,6 @@ module.exports = function(grunt) {
       'baseFile': 'base.txt'
     });
 
-    console.log(this.filesSrc);
     if(this.filesSrc.length === 0){
       return console.log('No Files specified');
     }
@@ -81,7 +80,7 @@ module.exports = function(grunt) {
     if (resultErrorNum - baseErrorNum > 0) {
       var diff = grunt.util.spawn({
         cmd: 'diff',
-        args: ['-u', '-b', 'result/result.txt', 'result/base.txt']
+        args: ['-u', '-b', 'result/base.txt', 'result/result.txt']
       }, function(error, result, code) {
         if (result.stderr) {
           // コマンド実行失敗
@@ -97,7 +96,7 @@ module.exports = function(grunt) {
       });
     }
     grunt.log.ok( 'ok, no syntax error and no coding violations');
-
+    
     if(options.silent){
       return true;
     }
